@@ -1,17 +1,19 @@
-package org.example;
+package org.example.vehicle;
 
+import org.example.constant.VehicleType;
+import org.example.factory.StartStrategyFactory;
 import org.example.strategy.StartStrategy;
 
 public class Car {
 
-    private final StartStrategy strategy;
+    private final StartStrategy startStrategy;
 
-    Car(StartStrategy strategy){
-        this.strategy = strategy;
+    Car(VehicleType vehicleType, StartStrategyFactory startStrategyFactory){
+        this.startStrategy = startStrategyFactory.getStartStrategy(vehicleType);
     }
 
-    void start(){
-        strategy.start();
+    public void start(){
+        startStrategy.start();
     }
 
 }

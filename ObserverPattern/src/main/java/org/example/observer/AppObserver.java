@@ -1,10 +1,12 @@
-package org.example;
+package org.example.observer;
 
-public class AppObserver implements IObserver{
+import org.example.observable.Observable;
+
+public class AppObserver implements IObserver {
 
     private Observable observable;
 
-    AppObserver(Observable observable){
+    public AppObserver(Observable observable){
         this.observable = observable;
     }
 

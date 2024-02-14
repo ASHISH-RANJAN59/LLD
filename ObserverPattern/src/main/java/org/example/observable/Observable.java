@@ -1,10 +1,11 @@
-package org.example;
+package org.example.observable;
 
+import org.example.observer.IObserver;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Observable implements IObservable{
+public class Observable implements IObservable {
 
     private List<IObserver> observerList = new ArrayList<>();
 

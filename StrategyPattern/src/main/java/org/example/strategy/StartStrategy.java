@@ -1,2 +1,7 @@
-package org.example;public interface StartStrategy {
+package org.example.strategy;
+
+public interface StartStrategy {
+
+    public void start();
+
 }

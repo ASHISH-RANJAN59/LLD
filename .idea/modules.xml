@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LLD.iml" filepath="$PROJECT_DIR$/.idea/LLD.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObserverPattern.iml" filepath="$PROJECT_DIR$/ObserverPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ObserverPattern.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ObserverPattern.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ObserverPattern.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ObserverPattern.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrategyPattern.iml" filepath="$PROJECT_DIR$/StrategyPattern.iml" />
     </modules>
   </component>
 </project>

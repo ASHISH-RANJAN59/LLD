@@ -1,10 +1,12 @@
-package org.example;
+package org.example.vehicle;
 
-import org.example.strategy.StartStrategy;
+import org.example.constant.VehicleType;
+import org.example.factory.StartStrategyFactory;
 
-public class XUV700 extends Car{
+public class XUV700 extends Car {
 
-    XUV700(StartStrategy strategy) {
-        super(strategy);
+
+    public XUV700(VehicleType vehicleType, StartStrategyFactory startStrategyFactory) {
+        super(vehicleType, startStrategyFactory);
     }
 }
